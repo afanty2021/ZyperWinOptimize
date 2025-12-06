@@ -1,24 +1,32 @@
-# ZyperWin++ 3.1
+# ZyperWin++ 4.1
 ZyperWin++是一个轻便的Windows优化工具，适用于Win7-Win11最新版的优化，包括性能优化、服务项优化、垃圾清理等操作，还支持系统激活和Office快速安装。  
-<img width="860" height="540" alt="image" src="https://github.com/user-attachments/assets/1246a142-3c34-4e75-bcdb-4bbed936b500" />  
-基于.NET4编写，并引入SunnyUI，外观简洁美观。兼容性强，无需额外安装运行库（Win7需要集成）  
-<img width="860" height="540" alt="image" src="https://github.com/user-attachments/assets/bd5f1659-ebc4-4184-8109-e705fe32f841" />  
-快速优化分级别优化，满足不同用户的需求  
-<img width="2339" height="1654" alt="基本优化 1 of 3" src="https://github.com/user-attachments/assets/60c9f6af-10ca-478d-89c0-2bd378dc77d5" />  
-<img width="2339" height="1654" alt="基本优化 2 of 3" src="https://github.com/user-attachments/assets/b070cd60-f1c1-4f6a-a1bd-71c729b92f7c" />  
-<img width="2339" height="1654" alt="基本优化 3 of 3" src="https://github.com/user-attachments/assets/a0b5fb6d-33d5-44ae-be7e-27e0d1d53487" />  
-先上快速优化分别优化的内容，避免有小伙伴认为我“搞阴的”（最怕快速优化）。做这种就光明正大的做，没必要乱折腾人，况且都开源了🥰  
-<img width="860" height="540" alt="image" src="https://github.com/user-attachments/assets/a1b25fa8-2e63-4b99-950c-af5738e01791" />  
-<img width="860" height="540" alt="image" src="https://github.com/user-attachments/assets/0ab7cd2f-6373-4f64-b697-c2e18c69a837" />  
-自定义优化可以选择需要优化的功能，避免优化到需要用的功能。通过开关控件反应优化情况  
-<img width="860" height="540" alt="image" src="https://github.com/user-attachments/assets/c7dc1b87-425f-47ae-916d-3bdffdd23cae" />  
-添加了优化还原功能，不满意可以回退优化。  
-<img width="860" height="540" alt="image" src="https://github.com/user-attachments/assets/9d05aca8-766b-41dd-8a13-46e1a1ed61e3" />  
-垃圾清理添加选项，默认全选，并添加了进度条  
-<img width="860" height="540" alt="image" src="https://github.com/user-attachments/assets/192d8efb-fe34-4428-96d5-a05b6fb14a16" />  
-此工具还支持快速安装Office，基本是全自动安装，不过这个需要联网操作安装，等待片刻后安装完毕  
-<img width="860" height="540" alt="image" src="https://github.com/user-attachments/assets/9d885ce2-48b4-4344-8c72-20cd43b87ff5" />  
+<img width="860" height="540" alt="image" src="https://github.com/user-attachments/assets/635c393b-d854-4b24-aff1-9c1a4c3af792" />  
+基于.NET4 C#编写，采用AntDUI界面，提升美观度，修复最小化再回来闪烁问题，占用体积更小。兼容性强，无需额外安装运行库（Win7需要集成）  
+<img width="860" height="540" alt="image" src="https://github.com/user-attachments/assets/46db8c16-22ec-483e-8c44-5e00dfe32ef6" />  
+优化界面以及逻辑修改，采用批量优化方式，用户操作明确，比上个版本一键优化明确很多。有独立框选项目控件，便于优化前检查  
+<img width="860" height="540" alt="image" src="https://github.com/user-attachments/assets/4141ffb2-ed2a-472e-8c09-d1cec8b4200d" />  
+添加优化项介绍，便于了解优化后的作用  
+<img width="860" height="540" alt="image" src="https://github.com/user-attachments/assets/020a2f2b-4cc8-44de-8613-67f753386469" />  
+添加Defender禁用控件，无需调用三方软件，避免报毒。如果无法禁用点击蓝链下载dControl强力关闭  
+<img width="865" height="541" alt="image" src="https://github.com/user-attachments/assets/83920d7a-5da6-45b6-9bbd-c4a8e1e77b3a" />  
+添加导入导出配置，便于个性化快速优化  
+<img width="860" height="540" alt="image" src="https://github.com/user-attachments/assets/121c8f69-0d26-4825-93a0-4d59516b23d5" />  
+优化后自动保存配置文件，如果优化不满意可以导入配置还原所选  
+<img width="860" height="540" alt="image" src="https://github.com/user-attachments/assets/fffb1385-fde5-4159-b054-989c8aa4a3e8" />  
+添加了常见问题疑难解答（可能没啥用，装饰用bushi）  
+<img width="860" height="540" alt="image" src="https://github.com/user-attachments/assets/e784b36d-5d35-4d03-8f7c-76f3d9d2e7cb" />  
+软件支持强力卸载Edge（极限手搓），保证不更新没残留  
+<img width="860" height="540" alt="image" src="https://github.com/user-attachments/assets/b05023ab-55d9-4f58-bfda-86bfd19cd5b6" />  
+垃圾清理添加选项，默认全选，并添加了进度显示。清理大小占用不好写，估算不准，没有引入  
+<img width="860" height="540" alt="image" src="https://github.com/user-attachments/assets/98cd0cb0-6603-4e37-aa48-9e4a01050ec5" />  
+此工具还支持快速安装Office，基本是全自动安装，不过这个需要联网操作安装，等待片刻后安装完毕。同时也支持C2R强力卸载  
+<img width="860" height="540" alt="image" src="https://github.com/user-attachments/assets/20398339-1ffd-40d5-8560-1023f1352762" />  
 此脚本还添加了Appx管理功能，方便管理卸载您的Appx应用，支持卸载用户已安装的应用  
-<img width="421" height="651" alt="image" src="https://github.com/user-attachments/assets/e3b14219-05ac-4139-9c52-dc3f3e544c07" />  
+查毒网扫描情况：https://www.virscan.org/report/6c177185ba50804b1bbe3754a0698941435611a78c149bc4a4291bc345ad0052  
+不信任的可以不采用。  
 软件包占用小，可以方便给个人电脑或者班级电脑快速优化  
-若出现问题请及时反馈！反馈交流群：312820776  
+本优化软件秉持着轻量无捆绑的原则，提供给有需要的用户。  
+若出现问题请及时反馈！  
+反馈交流群：  
+一群：312820776（满员加二群，资源有限请不要重复入群）  
+二群：374617605  
